@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>shopeebr - shopee</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<div class="row shop-tracking-status">
+    
+    <div class="col-md-12">
+        <div class="well">
+    
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label for="inputOrderTrackingID" class="col-sm-2 control-label">Order id</label>
+                        <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputOrderTrackingID" value="" placeholder="# put your order id here">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="button" id="shopGetOrderStatusID" class="btn btn-success">Get status</button>
+                    </div>
+                </div>
+            </div>
+    
+             <h4>Endereço De Entrega
+:</h4>
+
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <span class="prefix">bairro industrial rua 3 </span>
+                    <span class="label label-success">Pires do Rio.GO</span>
+                </li>
+                <li class="list-group-item">
+                    <span class="prefix">Last update:</span>
+                    <span class="label label-success">17.07.2024/span>
+                </li>
+                <li class="list-group-item">
+                    <span class="prefix">tipo de entrega:</span>
+                    <span class="label label-success">Entrega Padrão</span>
+                </li>
+                <li class="list-group-item">A tentativa de entrega deve ser feita entre 
+25/07/2024
+ e 
+29/07/2024
+</li>
+                <li class="list-group-item"><a href="//tracking/link/goes/here">//tracking/link/goes/here</a></li>
+            </ul>
+
+            <div class="order-status">
+
+                <div class="order-status-timeline">
+                    <!-- class names: c0 c1 c2 c3 and c4 -->
+                    <div class="order-status-timeline-completion c3"></div>
+                </div>
+
+                <div class="image-order-status image-order-status-new active img-circle">
+                    <span class="status">Seu pedido foi criado</span>
+                    <div class="icon"></div>
+                </div>
+                <div class="image-order-status image-order-status-active active img-circle">
+                    <span class="status">O vendedor está preparando seu pedido</span>
+                    <div class="icon"></div>
+                </div>
+                <div class="image-order-status image-order-status-intransit active img-circle">
+                    <span class="status">Goiás </span>
+                    <div class="icon"></div>
+                </div>
+                <div class="image-order-status image-order-status-delivered active img-circle">
+                    <span class="status">Seu pedido está em processamento logístico</span>
+                    <div class="icon"></div>
+                </div>
+                <div class="image-order-status image-order-status-completed active img-circle">
+                    <span class="status">Entregue</span>
+                    <div class="icon"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- partial -->
+  
+</body>
+</html>
